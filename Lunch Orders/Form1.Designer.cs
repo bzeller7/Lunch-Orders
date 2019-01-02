@@ -33,7 +33,7 @@
             this.radioPizza = new System.Windows.Forms.RadioButton();
             this.radioHamburger = new System.Windows.Forms.RadioButton();
             this.groupBox2 = new System.Windows.Forms.GroupBox();
-            this.CheckFrenchFires = new System.Windows.Forms.CheckBox();
+            this.CheckFrenchFries = new System.Windows.Forms.CheckBox();
             this.CheckKetchupMusterdMayo = new System.Windows.Forms.CheckBox();
             this.CheckLettuceTomatoOnion = new System.Windows.Forms.CheckBox();
             this.groupBox3 = new System.Windows.Forms.GroupBox();
@@ -98,7 +98,7 @@
             // 
             // groupBox2
             // 
-            this.groupBox2.Controls.Add(this.CheckFrenchFires);
+            this.groupBox2.Controls.Add(this.CheckFrenchFries);
             this.groupBox2.Controls.Add(this.CheckKetchupMusterdMayo);
             this.groupBox2.Controls.Add(this.CheckLettuceTomatoOnion);
             this.groupBox2.Location = new System.Drawing.Point(277, 32);
@@ -110,14 +110,14 @@
             // 
             // CheckFrenchFires
             // 
-            this.CheckFrenchFires.AutoSize = true;
-            this.CheckFrenchFires.Location = new System.Drawing.Point(20, 68);
-            this.CheckFrenchFires.Name = "CheckFrenchFires";
-            this.CheckFrenchFires.Size = new System.Drawing.Size(84, 17);
-            this.CheckFrenchFires.TabIndex = 2;
-            this.CheckFrenchFires.Text = "French Fries";
-            this.CheckFrenchFires.UseVisualStyleBackColor = true;
-            this.CheckFrenchFires.CheckedChanged += new System.EventHandler(this.CheckFrenchFires_CheckedChanged);
+            this.CheckFrenchFries.AutoSize = true;
+            this.CheckFrenchFries.Location = new System.Drawing.Point(20, 68);
+            this.CheckFrenchFries.Name = "CheckFrenchFires";
+            this.CheckFrenchFries.Size = new System.Drawing.Size(84, 17);
+            this.CheckFrenchFries.TabIndex = 2;
+            this.CheckFrenchFries.Text = "French Fries";
+            this.CheckFrenchFries.UseVisualStyleBackColor = true;
+            this.CheckFrenchFries.CheckedChanged += new System.EventHandler(this.CheckFrenchFires_CheckedChanged);
             // 
             // CheckKetchupMusterdMayo
             // 
@@ -253,7 +253,7 @@
 
         private System.Windows.Forms.GroupBox groupBox1;
         private System.Windows.Forms.GroupBox groupBox2;
-        private System.Windows.Forms.CheckBox CheckFrenchFires;
+        private System.Windows.Forms.CheckBox CheckFrenchFries;
         private System.Windows.Forms.CheckBox CheckKetchupMusterdMayo;
         private System.Windows.Forms.CheckBox CheckLettuceTomatoOnion;
         private System.Windows.Forms.GroupBox groupBox3;

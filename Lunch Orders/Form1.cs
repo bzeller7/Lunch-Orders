@@ -80,7 +80,7 @@ namespace Lunch_Orders
 
         private void CheckFrenchFires_CheckedChanged(object sender, EventArgs e)
         {
-            if (CheckFrenchFires.Checked)
+            if (CheckFrenchFries.Checked)
             {
                 AddOn += AddOnPrice;
             }
@@ -92,7 +92,7 @@ namespace Lunch_Orders
         private void ClearAddOns()
         {
             AddOn = 0.0d;
-            CheckFrenchFires.Checked = false;
+            CheckFrenchFries.Checked = false;
             CheckKetchupMusterdMayo.Checked = false;
             CheckLettuceTomatoOnion.Checked = false;
         }
@@ -106,7 +106,7 @@ namespace Lunch_Orders
                 groupBox2.Text = "Add-on items ($.75/each)";
                 CheckLettuceTomatoOnion.Text = "Lettuce, tomato and onions";
                 CheckKetchupMusterdMayo.Text = "Ketchup, mustard and mayo";
-                CheckFrenchFires.Text = "French Fries";
+                CheckFrenchFries.Text = "French Fries";
                 AddOnPrice = 0.75d;
             }
 
@@ -124,7 +124,7 @@ namespace Lunch_Orders
 
                 CheckLettuceTomatoOnion.Text = "Pepperoni";
                 CheckKetchupMusterdMayo.Text = "Sausage";
-                CheckFrenchFires.Text = "Olives";
+                CheckFrenchFries.Text = "Olives";
                 AddOnPrice = 0.50d;
             }
         }
@@ -140,7 +140,7 @@ namespace Lunch_Orders
                 groupBox2.Text = "Add-on items ($.25/each)";
                 CheckLettuceTomatoOnion.Text = "Croutons";
                 CheckKetchupMusterdMayo.Text = "Bacon bits";
-                CheckFrenchFires.Text = "Bread sticks ";
+                CheckFrenchFries.Text = "Bread sticks ";
                 AddOnPrice = 0.25d;
             }
         }
